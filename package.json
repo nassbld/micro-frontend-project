@@ -1,5 +1,5 @@
 {
-  "name": "module-federation-examples-root",
+  "name": "cra_sharedcomponent",
   "version": "0.0.0",
   "description": "Examples showcasing Webpack 5's Module Federation",
   "repository": "https://github.com/module-federation/module-federation-examples.git",

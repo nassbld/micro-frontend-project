@@ -15,7 +15,7 @@ const App = () => (
       <SharedHeader />
     </React.Suspense>
     <h1>Basic Host-Remote</h1>
-    <Card text="I am HOST"/>
+    <Card text="I am host"/>
     <React.Suspense fallback="Loading Button">
       <RemoteButton />
     </React.Suspense>
