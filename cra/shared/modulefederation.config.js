@@ -3,9 +3,8 @@ const { dependencies } = require('./package.json');
 module.exports = {
   name: 'shared',
   exposes: {
-    './Button': './src/Button', 
     './Header' : './src/Header' ,
-     './Footer' : './src/Footer'
+    './Footer' : './src/Footer'
   },
   filename: 'sharedEntry.js',
   shared: {

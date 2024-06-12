@@ -5,9 +5,9 @@ module.exports = {
   exposes: {
     './Button': './src/Button',
   },
-  remotes: {
-    shared: 'shared@http://localhost:3002/sharedEntry.js',
-  },
+  // remotes: {
+  //   shared: 'shared@http://localhost:3010/sharedEntry.js',
+  // },
   filename: 'remoteEntry.js',
   shared: {
     ...dependencies,
