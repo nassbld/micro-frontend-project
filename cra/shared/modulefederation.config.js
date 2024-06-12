@@ -1,14 +1,13 @@
 const { dependencies } = require('./package.json');
 
 module.exports = {
-  name: 'remote',
+  name: 'shared',
   exposes: {
-    './Button': './src/Button',
+    './Button': './src/Button', 
+    './Header' : './src/Header' ,
+     './Footer' : './src/Footer'
   },
-  remotes: {
-    shared: 'shared@http://localhost:3002/sharedEntry.js',
-  },
-  filename: 'remoteEntry.js',
+  filename: 'sharedEntry.js',
   shared: {
     ...dependencies,
     react: {
